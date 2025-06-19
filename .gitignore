@@ -1,4 +1,4 @@
-HELP.md
+Readme.md
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -32,7 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 
-HELP.md
+Readme.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -67,3 +67,5 @@ build/
 .vscode/
 
 .idea
+
+.gitattributes
