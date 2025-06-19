@@ -30,8 +30,8 @@ public class Role {
 
     public enum Values {
 
-        ADMIN(1L);
-        BASIC(2l);
+        ADMIN(1L),
+        BASIC(2L);
 
         long roleId;
 
@@ -39,7 +39,7 @@ public class Role {
             this.roleId = roleId;
         }
 
-        public Long getRoleId() {
+        public long getRoleId() {
             return roleId;
         }
     }

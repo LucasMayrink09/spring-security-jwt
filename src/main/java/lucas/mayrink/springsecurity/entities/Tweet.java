@@ -21,7 +21,7 @@ public class Tweet {
     private String content;
 
     @CreationTimestamp
-    private Instant creationTimeStamp;
+    private Instant creationTimestamp;
 
     public Long getTweetId() {
         return tweetId;
@@ -47,11 +47,11 @@ public class Tweet {
         this.content = content;
     }
 
-    public Instant getCreationTimeStamp() {
-        return creationTimeStamp;
+    public Instant getCreationTimestamp() {
+        return creationTimestamp;
     }
 
-    public void setCreationTimeStamp(Instant creationTimeStamp) {
-        this.creationTimeStamp = creationTimeStamp;
+    public void setCreationTimestamp(Instant creationTimestamp) {
+        this.creationTimestamp = creationTimestamp;
     }
 }
