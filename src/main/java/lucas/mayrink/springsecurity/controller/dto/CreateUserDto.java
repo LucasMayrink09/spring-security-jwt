@@ -1,4 +1,4 @@
 package lucas.mayrink.springsecurity.controller.dto;
 
-public class CreateUserDto {
+public record CreateUserDto(String username, String password) {
 }

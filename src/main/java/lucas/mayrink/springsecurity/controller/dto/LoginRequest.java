@@ -1,4 +1,4 @@
 package lucas.mayrink.springsecurity.controller.dto;
 
-public class LoginRequest {
+public record LoginRequest(String username, String password) {
 }

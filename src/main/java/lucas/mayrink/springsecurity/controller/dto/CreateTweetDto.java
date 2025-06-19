@@ -1,4 +1,4 @@
 package lucas.mayrink.springsecurity.controller.dto;
 
-public class CreateTweetDto {
+public record CreateTweetDto(String content) {
 }
